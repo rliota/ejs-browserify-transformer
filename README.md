@@ -20,6 +20,10 @@ Defaults to utf-8 encoding.
 
     builder.transform(ejsTransformFactory.create());
 
+    builder.bundle(function(err, buffer){
+        fs.writeFile('bar.js', buffer);
+    });
+
 #Command Line
     $ browserify --transform ejs-browserify-transformer foo.js
 
