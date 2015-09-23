@@ -11,6 +11,7 @@
     "browserify",
     "utf8"
   ],
+    "repository": "https://github.com/rliota/ejs-transformer.git",
   "author": "Robert Liota",
   "license": "MIT",
   "peerDependencies": {
