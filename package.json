@@ -1,0 +1,28 @@
+{
+  "name": "ejs-transformer",
+  "version": "0.0.1",
+  "description": "An ejs transformer for browserify. Supports utf-8.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha ./test/test.js"
+  },
+  "keywords": [
+    "ejs",
+    "browserify",
+    "utf8"
+  ],
+  "author": "Robert Liota",
+  "license": "MIT",
+  "peerDependencies": {
+    "ejs": "2.x.x",
+    "through": "2.x.x"
+  },
+  "dependencies": {
+    "ejs": "^2.3.4",
+    "through": "^2.3.8"
+  },
+  "devDependencies": {
+    "browserify": "^11.1.0",
+    "mocha": "^2.3.3"
+  }
+}
