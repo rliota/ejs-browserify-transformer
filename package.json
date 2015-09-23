@@ -1,7 +1,7 @@
 {
   "name": "ejs-browserify-transformer",
   "version": "0.0.1",
-  "description": "An ejs transformer for browserify. Supports utf-8.",
+  "description": "An ejs transformer for browserify.",
   "main": "index.js",
   "scripts": {
     "test": "node ./node_modules/mocha/bin/mocha ./test/test.js"
