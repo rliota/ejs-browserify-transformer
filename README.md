@@ -31,3 +31,4 @@ Defaults to utf-8 encoding.
 returns a transformer object that can be passed to browserify's #transform method.
 
 "opts" is an object that is passed to EJS's #compile() method.
+For a list of all the option names and what they do, consult the EJS section: https://github.com/tj/ejs#options
