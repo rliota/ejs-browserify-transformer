@@ -1,5 +1,5 @@
 {
-  "name": "ejs-transformer",
+  "name": "ejs-browserify-transformer",
   "version": "0.0.1",
   "description": "An ejs transformer for browserify. Supports utf-8.",
   "main": "index.js",
