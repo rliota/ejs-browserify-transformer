@@ -18,9 +18,7 @@ Defaults to utf-8 encoding.
 
     var builder = browserify('foo');
 
-    builder.transform(ejsTransformFactory.create({
-        rmWhiteSpace: true
-    }));
+    builder.transform(ejsTransformFactory.create());
 
 #Command Line
     $ browserify --transform ejs-browserify-transformer foo.js
