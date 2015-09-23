@@ -1,16 +1,12 @@
 Compiles EJS templates (or raw html) into functions as they are require()'d in your CommonJS code, using Browserify.
 
-For instance:
+Defaults to utf-8 encoding.
 
 
+#Installation
 
+    $ npm install ejs-browserify-transformer --save-dev
 
-#API
-
-##\#create(opts)
-returns a transformer object that can be passed to browserify's #transform method.
-
-"opts" is an object that is passed to EJS's #compile() method.
 
 
 #Programmatic Usage:
@@ -20,8 +16,18 @@ returns a transformer object that can be passed to browserify's #transform metho
     var ejsTransformFactory = require('ejs-browserify-transformer');
 
 
-    var builder = browserify('index');
+    var builder = browserify('foo');
 
     builder.transform(ejsTransformFactory.create({
         rmWhiteSpace: true
     }));
+
+#Command Line
+    $ browserify --transform ejs-browserify-transformer foo.js
+
+#API
+
+##\#create(opts)
+returns a transformer object that can be passed to browserify's #transform method.
+
+"opts" is an object that is passed to EJS's #compile() method.
