@@ -30,7 +30,7 @@ var ejs = require('ejs'),
 
 
 function wrap(compiled){
-    return 'module.exports=(function(){var compiled=' + compiled + '; return function(d){ return compiled(d);}}())';
+    return 'module.exports=( '+ compiled + ')';
 }
 
 

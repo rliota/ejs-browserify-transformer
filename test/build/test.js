@@ -20,7 +20,7 @@ module.exports ={
 };
 
 },{"./slipsum.html":2}],2:[function(require,module,exports){
-module.exports=(function(){var t=function anonymous(locals, escape, include, rethrow
+module.exports=( function anonymous(locals, escape, include, rethrow
 /**/) {
 rethrow = rethrow || function rethrow(err, str, filename, lineno){
   var lines = str.split('\n')
@@ -72,11 +72,11 @@ try {
     ; __append("<div>\n    <div id=\"content\">\n        ")
     ; __line = 3
     ; (function(){
-    ; __append("\n        <!-- start slipsum code -->\n\n        Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. But I can't give you this case, it don't belong to me. Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass.\n\n        <!-- please do not remove this line -->\n\n        <div style=\"display:none;\">\n            <a href=\"")
-    ; __line = 9
+    ; __append("<!-- start slipsum code -->\n\nYou think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't. Nature is lethal but it doesn't hold a candle to man.\n\n<!-- please do not remove this line -->\n\n\n<a href=\"")
+    ; __line = 8
     ; __append(escape(slipsumURL))
     ; __append("\">lorem ipsum</a></div>\n\n        <!-- end slipsum code -->\n")
-    ; __line = 12
+    ; __line = 11
     ; })()
     ; __append("\n        </div>\n    </div>")
     ; __line = 5
@@ -86,6 +86,6 @@ try {
   rethrow(e, __lines, __filename, __line);
 }
 
-}; return function(l){ return t(l);}}())
+})
 },{}]},{},[1])(1)
 });

@@ -1,7 +1,5 @@
 Compiles EJS templates (or raw html) into functions as they are require()'d in your CommonJS code, using Browserify.
 
-Defaults to utf-8 encoding.
-
 
 #Installation
 
