@@ -1,6 +1,6 @@
 {
   "name": "ejs-browserify-transformer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An ejs transformer for browserify.",
   "main": "index.js",
   "scripts": {

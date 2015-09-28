@@ -27,7 +27,7 @@ Compiles EJS templates (or raw html) into functions as they are require()'d in y
 
 #API
 
-##\#create(opts)
+create(opts)
 returns a transformer object that can be passed to browserify's #transform method.
 
 "opts" is an object that is passed to EJS's #compile() method.

@@ -73,11 +73,6 @@ var transformerFactory = {
     }
 };
 
-module.exports = transformerFactory;
+module.exports = transformerFactory.create();
 
-
-/*
- Adapted from browserify-ejs (https://github.com/unfold/browserify-ejs - Copyright (c) 2012 Simen Brekken <simen@unfold.no>
-
- Licensed under the MIT License (see above).
- */
+module.exports.create = transformerFactory.create;
