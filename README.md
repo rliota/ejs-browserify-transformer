@@ -1,13 +1,13 @@
 Compiles EJS templates (or raw html) into functions as they are require()'d in your CommonJS code, using Browserify.
 
 
-#Installation
+# Installation
 
     $ npm install ejs-browserify-transformer --save-dev
 
 
 
-#Programmatic Usage:
+# Programmatic Usage:
 
     var browserify = require('browserify');
 
@@ -22,12 +22,12 @@ Compiles EJS templates (or raw html) into functions as they are require()'d in y
         fs.writeFile('bar.js', buffer);
     });
 
-#Command Line
+# Command Line
     $ browserify --transform ejs-browserify-transformer foo.js
 
-#API
+# API
 
-create(opts)
+# #create(opts)
 returns a transformer object that can be passed to browserify's #transform method.
 
 "opts" is an object that is passed to EJS's #compile() method.
