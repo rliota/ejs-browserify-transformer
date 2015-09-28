@@ -4,7 +4,10 @@
   "description": "An ejs transformer for browserify.",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/mocha/bin/mocha ./test/test.js"
+      "build-script": "node ./test/build.js",
+      "build-cmd": "node node_modules/.bin/browserify --standalone Test --transform ./ test/src/index.js > test/build/test.js",
+      "run-test": "node ./node_modules/mocha/bin/mocha ./test/test.js",
+        "test": "npm run build-script && npm run run-test && npm run build-cmd && npm run run-test"
   },
   "keywords": [
     "ejs",

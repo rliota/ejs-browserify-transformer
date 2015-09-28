@@ -3,6 +3,7 @@ var assert = require('assert');
 var build = require('./build');
 var test = require("./build/test");
 
+console.log(test)
 
 describe('ejs-transformer', function() {
 
