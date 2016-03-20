@@ -1,3 +1,7 @@
+# DEPRECATION NOTICE
+NodeJS has deprecated the import of non-js files anymore, so this transformer will not work in the latest version. 
+You could try a combination of piping the string created by the browserify brfs plugin fed to your templating library of choice.
+
 Compiles EJS templates (or raw html) into functions as they are require()'d in your CommonJS code, using Browserify.
 
 
